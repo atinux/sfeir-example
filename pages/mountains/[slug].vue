@@ -1,10 +1,10 @@
 <script setup>
 const { params } = useRoute()
-const { data: mountain, error } = await useFetch(`https://api.nuxtjs.dev/mountains/${params.slug}`)
+const { data: mountain } = await useFetch(`https://api.nuxtjs.dev/mountains/${params.slug}`)
 </script>
 
 <template>
-  <div>
+  <div >
     <NuxtLink to="/" class="underline block pb-4">Back to mountains</NuxtLink>
     <div v-if="mountain">
       <Title>Mountain: {{ mountain.title }}</Title>

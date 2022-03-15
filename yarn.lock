@@ -523,6 +523,16 @@
     vite "^2.8.6"
     vite-node "^0.6.1"
 
+"@nuxtjs/color-mode@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/color-mode/-/color-mode-3.0.2.tgz#17110d78864ad00ce524f7fc2d379d8c28ff765a"
+  integrity sha512-JgppnxOsVe2T/UGj0xjok/8TKDI27bRuhNh+Qrvr0FsS90Mty2acZLLN0lkrOTV0WLrpnTgN7mZCrgCWmhvziA==
+  dependencies:
+    "@nuxt/kit" "npm:@nuxt/kit-edge@latest"
+    defu "^5.0.0"
+    lodash.template "^4.5.0"
+    pathe "^0.2.0"
+
 "@nuxtjs/tailwindcss@^5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-5.0.1.tgz#eeef2131e07cb26082cb55ced31c82c07d30e29b"
