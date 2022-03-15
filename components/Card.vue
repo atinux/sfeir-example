@@ -8,9 +8,9 @@ const props = defineProps({
 
 <template>
   <article class="p-4 border clear-both overflow-hidden rounded mb-4">
-    <img class="float-right h-20 ml-4" :src="props.image" />
+    <img class="float-right h-20 ml-4" :src="props.image" :alt="props.title" />
     <section>
-      <h3 class="text-2xl">{{ props.title }}</h3>
+      <h2 class="text-2xl">{{ props.title }}</h2>
       <p class="text-gray-600">{{ props.description }}</p>
     </section>
   </article>
