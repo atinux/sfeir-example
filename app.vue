@@ -6,7 +6,7 @@ const colorMode = useColorMode()
   <div class="container mx-auto pt-4">
     <Html lang="en" />
     <Meta name="description" content="Sfeir demo app with Nuxt 3, listing mountains" />
-    <select v-model="colorMode.preference" class="absolute right-2 bottom-2">
+    <select v-model="colorMode.preference" class="fixed right-2 bottom-2">
       <option value="system">System</option>
       <option value="light">Light</option>
       <option value="dark">Dark</option>
