@@ -1,8 +1,7 @@
 <script setup>
 const { data: mountains } = await useFetch('https://api.nuxtjs.dev/mountains')
 useMeta({
-  title: 'Sfeir - Mountains',
-  description: 'A list of mountains for Sfeir talk'
+  title: 'Sfeir - Mountains'
 })
 </script>
 
